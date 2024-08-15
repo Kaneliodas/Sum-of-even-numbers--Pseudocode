@@ -1,7 +1,7 @@
-Algoritmo "Soma de números pares"
-//:Peça ao usuário para inserir 10 números reais e armazene-os em um vetor.
-//Calcule a soma dos números pares inseridos.
-//Exiba a soma dos números pares na tela.
+Algoritmo "Soma de nÃºmeros pares"
+//:PeÃ§a ao usuÃ¡rio para inserir 10 nÃºmeros reais e armazene-os em um vetor.
+//Calcule a soma dos nÃºmeros pares inseridos.
+//Exiba a soma dos nÃºmeros pares na tela.
 var
 n: vetor[1..10] de inteiro
 i,j,par: inteiro
@@ -9,7 +9,7 @@ i,j,par: inteiro
 
 Inicio
 para i de 1 ate 10 faca
-escreva("Leia o número ", i,": ")
+escreva("Leia o nÃºmero ", i,": ")
 leia(n[i])
 fimpara
 
